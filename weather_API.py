@@ -26,7 +26,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-API_KEY = "41e60832c39381685cf06ee0f1cc61f5"
+API_KEY = st.secrets["API_KEY"]
 BASE_URL = "http://api.openweathermap.org/data/2.5/forecast"
 
 tamil_weather = {
