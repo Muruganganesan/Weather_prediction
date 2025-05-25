@@ -9,20 +9,19 @@ st.set_page_config(page_title="அடுத்த 5 நாளுக்கான 
 # ✅ THEN styling and rest of UI
 st.markdown("""
     <style>
-        .main {
-            background-color: #f0f4f8;
-        }
-        .weather-card {
-            background: #fff;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-            padding: 1.5em;
-            margin-bottom: 1em;
-        }
-        .emoji {
-            font-size: 2em;
-            vertical-align: middle;
-        }
+    .stApp {
+        background-image: url("https://images.unsplash.com/photo-1499346030926-9a72daac6c63");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .weather-card {
+        background: rgba(255, 255, 255, 0.85);
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        padding: 1.5em;
+        margin-bottom: 1em;
+    }
     </style>
 """, unsafe_allow_html=True)
 
